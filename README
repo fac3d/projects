@@ -1,0 +1,91 @@
+################################################################################
+#
+# Program Name: tv_schedupdate.pl
+# Date:		03-July-2016
+# Author:	Frank Cermak
+# Summary:	Updates mysql database with a new show.
+#
+################################################################################
+mysql -h localhost -u root -p
+<>
+
+CREATE USER ''@'localhost' IDENTIFIED BY 'frank';
+<>
+GRANT ALL PRIVILEGES ON * . * TO ''@'localhost';
+
+CREATE DATABASE tvschedule;
+use tvschedule;
+drop table channel4;
+CREATE TABLE channel4  (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, time_slot varchar(20), show_title varchar(20), start varchar(8), stop varchar(8), length int, start_date DATE);
+describe channel4;
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_1", " ", "12:00am", "12:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_2", " ", "12:30am", "1:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_3", " ", "1:00am",  "1:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_4", " ", "1:30am",  "2:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_5", " ", "2:00am",  "2:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_6", " ", "2:30am",  "3:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_7", " ", "3:00am",  "3:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_8", " ", "3:30am",  "4:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_9", " ", "4:00am",  "4:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_10", " ", "4:30am", "5:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_11", " ", "5:00am", "5:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_12", " ", "5:30am", "6:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_13", " ", "6:00am", "6:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_14", " ", "6:30am", "7:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_15", " ", "7:00am", "7:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_16", " ", "7:30am", "8:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_17", " ", "8:00am", "8:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_18", " ", "8:30am", "9:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_19", " ", "9:00am", "9:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_20", " ", "9:30am", "10:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_21", " ", "10:00am", "10:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_22", " ", "10:30am", "11:00am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_23", " ", "11:00am", "11:30am", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_24", " ", "11:30am", "12:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_25", " ", "12:00pm", "12:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_26", " ", "12:30pm", "1:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_27", " ", "1:00pm",  "1:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_28", " ", "1:30pm",  "2:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_29", " ", "2:00pm",  "2:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_30", " ", "2:30pm",  "3:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_31", " ", "3:00pm",  "3:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_32", " ", "3:30pm",  "4:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_33", " ", "4:00pm",  "4:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_34", " ", "4:30pm", "5:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_35", " ", "5:00pm", "5:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_36", " ", "5:30pm", "6:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_37", " ", "6:00pm", "6:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_38", " ", "6:30pm", "7:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_39", " ", "7:00pm", "7:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_40", " ", "7:30pm", "8:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_41", " ", "8:00pm", "8:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_42", " ", "8:30pm", "9:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_43", " ", "9:00pm", "9:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_44", " ", "9:30pm", "10:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_45", " ", "10:00pm", "10:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_46", " ", "10:30pm", "11:00pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_47", " ", "11:00pm", "11:30pm", 0, '');
+INSERT INTO `channel4` (`id`, `time_slot`, `show_title`, `start`, `stop`, `length`, `start_date`) VALUES (NULL, "slot_48", " ", "11:30pm", "12:00am", 0, '');
+
+mysqldump -u  -p tvschedule > backup.sql
+mysql     -u  -p tvschedule < backup.sql
+
+select * from channel4 where start >= 30 and stop <= 120 AND show_title = "";
+select * from channel4 where start >= 30 and stop <= 120 AND show_title != "";
+
+update `channel4` set  `show_title` =  "news at 11" WHERE  start >=1410 and stop <=1440;
+update `channel4` set  `show_title` =  "news at 7" WHERE  start >=30 and stop <=90;
+update `channel4` set  `show_title` =  "nova" WHERE  start >=30 and stop <=180 AND show_title = "";
+
+dont do a delete from channel4, do an update with blanks.
+update `channel4` set  `show_title` =  "" WHERE  start >=30 and stop <=300 AND show_title = "" AND time_slot ="slot_9";
+update `channel4` set  `show_title` =  "" WHERE  start >=240 and stop <=300;
+select * from channel4 where start >= 240 and stop <= 300;
+
+to do an update, need to select * from channel4 where start >= 180 and stop <= 300;
+This will give you a bunch of rows, but you only want to update one row at a time.
+
+update `channel4` set  `show_title` =  "nova" WHERE  start >=30 and stop <=300 AND show_title = "" AND time_slot ="slot_9";
+
+select time_slot from channel4 where start >= 180 and stop <= 300 AND show_title = "";
+this will give either a 0 or a value. can use the next available or the last, or middle?
