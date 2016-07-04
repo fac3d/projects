@@ -20,8 +20,8 @@ my $dsn = "DBI:mysql:tvschedule";
 my $dbh = "";
 my $sql = "";
 my $sth = "";
-my $username = 'frank';
-my $password = 'frank';
+my $username = '';
+my $password = '';
 
 ###############################################################################
 #

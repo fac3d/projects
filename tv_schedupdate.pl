@@ -23,8 +23,8 @@ my $dsn = "DBI:mysql:tvschedule";
 my $dbh = "";
 my $sql = "";
 my $sth = "";
-my $username = 'frank';
-my $password = 'frank';
+my $username = '';
+my $password = '';
 my %attr = ( PrintError=>0,  # turn off error reporting via warn()
              RaiseError=>1); # turn on error reporting via die();
 
