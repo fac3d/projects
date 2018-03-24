@@ -1,0 +1,238 @@
+    1  pwd
+    2  mysql
+    3  htop
+    4  top
+    5  pwd
+    6  df -h
+    7  date
+    8  iostat
+    9  pwd
+   10  clear
+   11  whoami
+   12  cc
+   13  gcc
+   14  vi a.c
+   15  gcc a.c -o a
+   16  ./a
+   17  python
+   18  staroffice
+   19  dmesg
+   20  clear
+   21  sudo shutdown -h now
+   22  startx
+   23  cd /
+   24  lsd
+   25  ls -lrt
+   26  cd proc
+   27  ls
+   28  file ioports 
+   29  ls -lrt
+   30  cd /
+   31  cd etc
+   32  ls
+   33  ls -lrt
+   34  ls passwd
+   35  more passwd
+   36  more passwd  | grep pi
+   37  mysql
+   38  ls shadow
+   39  more shadow
+   40  sudo more shadow
+   41  ls groups
+   42  ls
+   43  file group
+   44  more group
+   45  adduser
+   46  adduser --help
+   47  cd
+   48  dmesg
+   49  dmesg | less
+   50  cd
+   51  mkdir python
+   52  cd python
+   53  vi test.py
+   54  which python
+   55  chmod u+x test.py 
+   56  ./test.py 
+   57  vi test.py
+   58  ./test.py 
+   59  fg
+   60  vi test.py
+   61  ./test.py 
+   62  cd 
+   63  c d/etc
+   64  cd /etc
+   65  ls
+   66  cd rc0.d
+   67  ls
+   68  ls -lrt
+   69  more 
+   70  more  README
+   71  more K07umountfs
+   72  mount
+   73  df -h
+   74  sudo swapoff
+   75  sudo swapoff -a
+   76  ls
+   77  sudo swapon
+   78  sudo swapon -a
+   79  date -u
+   80  cd
+   81  mkdir src
+   82  cd src
+   83  vi test.c
+   84  man memset
+   85  vi test.c
+   86  cc test.c -o a
+   87  fg
+   88  vi test.c
+   89  cc test.c -o a
+   90  fg
+   91  vi test.c
+   92  cc test.c -o a
+   93  cc test.c -o a -std=gnu99
+   94  ./a
+   95  fg
+   96  vi test.c
+   97  cc test.c -o a -std=gnu99
+   98  fg
+   99  vi test.c
+  100  cc test.c -o a -std=gnu99
+  101  ./a
+  102  man malloc
+  103  ./a
+  104  vi test.c
+  105  cc test.c -o a -std=gnu99
+  106  ./a
+  107  fg
+  108  vi test.c
+  109  cc test.c -o a -std=gnu99
+  110  ./a
+  111  ldfafd
+  112  pwd
+  113  du -h
+  114  a
+  115  ./a
+  116  ls
+  117  cd proc
+  118  ls
+  119  htop
+  120  top
+  121  ma malloc
+  122  man malloc
+  123  sudo init 0
+  124  demesg
+  125  dmesg | less
+  126  ping www.att.com
+  127  cd /
+  128  cd etc
+  129  ls
+  130  ls ntp.conf 
+  131  more ntp.conf
+  132  ping www.ntp.org
+  133  ps -elf
+  134  ps -elf | grep ntp
+  135  date -u
+  136  sudo hwclock --show
+  137  hwclock --show
+  138  hwclock -show
+  139  hwclock 
+  140  hwclock -r
+  141  hwclock --systohc
+  142  sudo hwclock --systohc
+  143  sudo hwclock -systohc
+  144  netstat -a | grep tcp
+  145  startx
+  146  sudo init 0
+  147  init 0
+  148  sudo init 0
+  149  sudo apt-get update
+  150  sudo apt-get upgrade
+  151  sudo  apt-get update
+  152  netstat -a | grep tcp
+  153  htop
+  154  top
+  155  iostat
+  156  ipcs
+  157  netstat -a | grep tcp
+  158  netstat -i | grep tcp
+  159  top
+  160  cd /
+  161  df -h
+  162  top
+  163  ll /var/cache/apt/archives
+  164  ls -lrt /var/cache/apt/archives
+  165  man init
+  166  sudo reboot
+  167  startx
+  168  dmesg
+  169  ping www.yahoo.com
+  170  uname -s
+  171  uname -a
+  172  iceweasel
+  173  sudo shutdown -1
+  174  sudo shutdown -t 10
+  175  shutdown -t 10
+  176  sudo shutdown -t 10 shutting down
+  177  sudo shutdown -t 10 "shutting down"
+  178  sudo shutdown 
+  179  sudo shutdown [-t 10]
+  180  sudo init 0
+  181  sudo apt-get update
+  182  sudo apt-get upgrade
+  183  sudo apt-get --fix-missing
+  184  sudo apt-get update --fix-missing
+  185  sudo apt-get upgrade
+  186  startx
+  187  htop
+  188  top
+  189  mc
+  190  ipfm
+  191  sudo init 0
+  192  apt-get upgrade
+  193  sudo apt-get upgrade
+  194  startx
+  195  mysql
+  196  apt-get upgrade
+  197  sudo apt-get upgrade
+  198  sudo apt-get install mysql-server
+  199  sudo apt-get --fix-missing
+  200  sudo apt-get update --fix-missing
+  201  sudo apt-get install mysql-server
+  202  sudo apt-get install mysql-client php5-mysql python-mysqldb
+  203  pwd
+  204  ls
+  205  cd pytoh
+  206  cd python
+  207  ls
+  208  more test.py 
+  209  vi gpio_blink.py
+  210  python gpio_blink.py 
+  211  vi gpio_blink.py
+  212  which python
+  213  fg
+  214  chmod +x gpio_blink.py 
+  215  ./gpio_blink.py 
+  216  more test.py 
+  217  vi gpio_blink.py
+  218  ./gpio_blink.py 
+  219  vi gpio_blink.py
+  220  ./gpio_blink.py 
+  221  sudo ./gpio_blink.py 
+  222  vi gpio_blink.py
+  223  ifconfig
+  224  ping 192.168.1.74
+  225  telnet 192.168.1.74
+  226  ftp 192.168.1.74
+  227  sudo apt-get telnet
+  228  sudo apt-get telnetd
+  229  sudo apt-get install telnetd
+  230  sudo /etc/init.d/openbsd-inetd restart
+  231  more /etc/network/interfaces 
+  232  sudo apt-get ftpd
+  233  sudo apt-get install ftpd
+  234  hi
+  235  history
+  236  history > notes-20160521.log
+http://www.ronnutter.com/raspberry-pi-enabling-telnet/
+
