@@ -20,7 +20,7 @@ None
 
 ## Running the tests
 
-![ScreenShot](/screenshots/latest.png)
+![ScreenShot](https://github.com/fac3d/projects/blob/master/21-Apr-07.gif)
 
 ### Break down into end to end tests
 
