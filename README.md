@@ -20,7 +20,7 @@ None
 
 ## Running the tests
 
-None
+![ScreenShot](/screenshots/latest.png)
 
 ### Break down into end to end tests
 
