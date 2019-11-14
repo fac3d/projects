@@ -1,6 +1,6 @@
 # Project Title
 
-Code snippings for PERL, Python, C examples.
+Code snippings for PERL, Python, sqlite, C examples.
 
 ## Getting Started
 
