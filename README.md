@@ -18,9 +18,9 @@ None
 
 None
 
-## Running the tests
+## Screen shot of a PERL gui program containing buttons and text areas.
 
-![ScreenShot](https://github.com/fac3d/projects/blob/master/21-Apr-07.gif)
+![ScreenShot](https://github.com/fac3d/projects/blob/master/perl/gs.png)
 
 ### Break down into end to end tests
 
