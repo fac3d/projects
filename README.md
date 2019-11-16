@@ -14,9 +14,9 @@ None
 None
 ```
 
-### Installing
+### Screen shot of a PERL gui program showing a table.
 
-None
+![ScreenShot](https://github.com/fac3d/projects/blob/master/perl/tvschedule.png)
 
 ## Screen shot of a PERL gui program containing buttons and text areas.
 
