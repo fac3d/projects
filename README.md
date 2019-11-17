@@ -1,10 +1,10 @@
-# Project Title
-Learning to 'git'. Though a project should really have a 'code name', no pun intented.
+### Project Title
+#### Learning to 'git'. Though a project should really have a 'code name', no pun intented.
 
-## Project Summary
-### Contains code snippets and examples. Much of these were coded on the weekend as learning projects.  
+### Project Summary
+#### Contains code snippets and examples. Much of these were coded on the weekend as learning projects.  
 
-## Directory Summary
+### Directory Summary
 ### PERL
 #### Several PERL scripts including those that have created the user interfaces shown below.
 
@@ -20,19 +20,19 @@ Learning to 'git'. Though a project should really have a 'code name', no pun int
 ### doc
 #### Pretty sure doc directory is also empty.
 
-### Screen shot of a PERL gui program showing a table.
+####Screen shot of a PERL gui program showing a table.
 ![ScreenShot](https://github.com/fac3d/projects/blob/master/perl/tvschedule.png)
 
-### Screen shot of a PERL gui program used to update the above table.
+#### Screen shot of a PERL gui program used to update the above table.
 ![ScreenShot](https://github.com/fac3d/projects/blob/master/perl/tvscheduleupdater.png)
 
-### Screen shot of a PERL gui program containing buttons and text areas.
+#### Screen shot of a PERL gui program containing buttons and text areas.
 ![ScreenShot](https://github.com/fac3d/projects/blob/master/perl/gs.png)
 
-## Authors
+### Authors
 * **Frank Cermak** - *Initial work* - [projects](https://github.com/projects)
 
-## Acknowledgments
+### Acknowledgments
 * None
 * 
 * 
