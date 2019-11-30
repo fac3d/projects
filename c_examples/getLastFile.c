@@ -3,6 +3,17 @@
  *
  * cc getLastFile.c -o getLastFile
  *
+ * Description: Reads .per files in the directory. The most current
+ * of that file type (thisFile) is returned. The most current, meaning
+ * the youngest file of c_time is returned.
+ *
+ * Author:  Frank Cermak
+ *
+ * Date: 17-Nov-2019
+ *
+ * Revisions:
+ *
+ *
  */
 
 #include <stdio.h>
@@ -56,7 +67,7 @@ int main (int argc, char *argv[])
          }
       }
    }
-
+   closedir(dp);
    printf("File to use is %s\n", thisFile);
 
    return 0;
