@@ -20,6 +20,9 @@
 ### doc
 #### Pretty sure doc directory is also empty.
 
+### java
+#### Contains two directories, RMI and Polymorphism. Both have example files and show the very basic of concepts.
+
 #### Screen shot of a PERL gui program showing a table. What is cool about this is using PERL to create this table and push buttons that actually update the table. Have not looked at the code in awhile. Pretty sure it hits a SQLite database.
 ![ScreenShot](https://github.com/fac3d/projects/blob/master/perl/tvschedule.png)
 
