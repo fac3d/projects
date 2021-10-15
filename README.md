@@ -5,6 +5,10 @@
 #### Contains code snippets and examples. Much of these were coded on the weekend as learning projects.  
 
 ### Directory Summary
+
+### screenshots
+#### Contains screenshots (png) files of various Python learning projects. Source code not in github.
+
 ### PERL
 #### Several PERL scripts including those that have created the user interfaces shown below.
 
