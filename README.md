@@ -7,7 +7,7 @@
 ### Directory Summary
 
 ### screenshots
-#### Contains screenshots (png) files of various Python learning projects. Source code not in github.
+#### Contains screenshots (png) files of various Python learning projects. Screen shot of Bugzilla running on my local Dell Core i3 computer. Source code not in github.
 
 ### PERL
 #### Several PERL scripts including those that have created the user interfaces shown below.
