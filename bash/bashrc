@@ -1,0 +1,78 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+	for rc in ~/.bashrc.d/*; do
+		if [ -f "$rc" ]; then
+			. "$rc"
+		fi
+	done
+fi
+
+unset rc
+
+# Aliases
+alias hi='history'
+alias ll='ls -al'
+alias lsd='ls -lrt|grep ^d'
+alias goc='cd $HOME/dev/c' 
+alias goj='cd $HOME/dev/java_source' 
+alias gopy='cd $HOME/dev/python' 
+alias
+
+
+# Functions
+function mkbak(){
+if [ -e $1_b1 ]
+then
+echo $1 exists making backup
+	cp $1_b1 $1_b2
+fi
+if [ -e $1_b0 ]
+then
+echo $1 exists making backup
+	cp $1_b0 $1_b1
+fi
+if [ -e $1 ]
+then
+echo $1 exists making backup
+	cp $1 $1_b0
+fi
+
+}
+
+# Various System Checks
+echo 'systemctl status chronyd'                                  
+echo 'systemctl enable --now chronyd'                            
+echo 'systemctl status chronyd'                                  
+echo 'chronyc activity'                                          
+echo 'chronyc sources -v'                                        
+echo 'chronyc sourcestats -v'                                    
+echo 'chronyc tracking'                                          
+echo 'timedatectl'                                               
+echo '============================='                             
+echo 'journalctl -f'                                             
+echo 'journalctl -b'                                             
+echo 'journalctl --since yesterday'                              
+echo 'journalctl --disk-usage'                                   
+echo 'rsync -avzh /home/frank/dev/ /run/media/frank/PNY32GB/'        
+echo '/opt/pycharm/pycharm-community-2022.2.2/bin/pycharm.sh'        
+echo 'neofetch'                                                      
+echo 'please'                                                        
+
+. "$HOME/.cargo/env"
